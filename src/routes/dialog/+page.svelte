@@ -1,7 +1,6 @@
 <script lang="ts">
   import {
     Dialog,
-    DialogDescription,
     DialogOverlay,
     DialogTitle,
   } from "@rgossiaux/svelte-headlessui";
@@ -32,9 +31,6 @@
       <DialogTitle class="text-gray-800 text-lg font-semibold leading-7 mb-4"
         >Deploy your project to Rill Cloud</DialogTitle
       >
-      <DialogDescription class="">
-        This will permanently deactivate your account
-      </DialogDescription>
       <p>
         Run this command from your project directory. <a
           href="docs"
